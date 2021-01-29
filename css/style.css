@@ -1,0 +1,231 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+/* SOCIAL MEDIA AND HOVER EFFECT */
+.fab{
+    color: #545454;
+    transition: color .4s;
+}
+a:hover .fa-facebook {color:#3b5998;}
+a:hover .fa-twitter {color:#1da1f2;}
+a:hover .fa-instagram{color: #c13584;}
+a:hover .fa-github{color: #333;}
+a:hover .fa-google{color: rgb(219, 103, 26);}
+
+ #mynavbar ul li a:hover{
+     opacity: .5;
+
+ }
+/* STYLING THE BUTTON (MAIN BUTTON) */
+.seediv{
+    width:162px;
+    height: 48px;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    border-radius:7px;
+    background: #E324A1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E324A1, #2657eb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E324A1, #2657eb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.buttonlink{
+    display: block;
+    width:162px;
+}
+
+.buttonlink:hover{
+    text-decoration: none;
+}
+/* HOVER EFFECT FOR THE BUTTON (MAIN BUTTON) */
+.seediv:hover{
+    
+    opacity: .93;
+   
+}
+
+
+/* STYLING MY NAME  */
+.myname{
+    color: #094966;
+    
+}
+
+.smallword{
+    color: #A098A0;
+}
+
+/* MAIN IMG */
+@keyframes example {
+   0%{opacity: 0;}
+   100%{opacity: 1;}
+}
+.animateimg2{
+    opacity: 0;
+}
+.animateimg{
+    opacity: 0;
+}
+
+/* SMALL CARDS (RATING APPS etc...) */
+.counters{
+    background-color: #F9FAFF;
+    border-radius: 10px;
+    width: 120px;
+    height: 120px;
+    
+    
+}
+
+.numbercount{
+    background: #E324A1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E324A1, #2657eb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E324A1, #2657eb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+.secondpara{
+    font-size: medium;
+    color: #A098A0;;
+}
+/* CARDS CUSTOMIZATION */
+.customcard{
+    border-radius: 5px;
+    height:350px;
+    width:250px;
+    background-color: #F9FAFF;
+    opacity: 0;
+}
+/* CARDS LINKS */
+
+.mylink{
+   
+    
+    font-size: medium;
+}
+
+.cardlink{
+    
+    height: 2px;
+    width: 50%;
+    background: #E324A1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E324A1, #2657eb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E324A1, #2657eb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: width 0.5s;
+}
+.mylink:hover .cardlink{
+    width:100%;
+}
+
+
+/* CAROUSEL */
+.carousel-indicators li{
+    background-color: #E324A1;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%
+
+}
+
+.checked{
+    color: rgb(255, 255, 0);
+}
+
+.myfont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* PROJECTS SECTION */
+.projects{
+    width: 700px;
+}
+.project{
+    width: 300px;
+    height: 300px;
+    
+}
+.projectimg img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.hidden{
+    display: none;
+}
+.description{
+    
+    background-color: rgba(177, 177, 177,0.23);
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: none;
+}
+
+.description a{
+    width:162px;
+    height: 48px;
+    font-size: small;
+    font-weight: bold;
+    color: white;
+    border-radius:30px;
+    background: #E324A1; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #E324A1, #2657eb); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #E324A1, #2657eb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.centering{
+    width: 100%;
+    height: 100%;
+}
+
+
+.fulldiv{
+    width: 100%;
+    height: 100%;
+}
+
+.footersocial a{
+    border-radius: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+}
+.footersocial a i{
+    color: #094966;
+}
+.footersocial a:hover{
+    text-decoration: none;
+}
+
+.linksfooter{
+    width: 320px;
+    
+    font-weight: bold;
+}
+.linksfooter a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+
+}
+.linksfooter a:hover{
+    color: #E324A1;
+}
+
+
+footer{
+    background-color: #3a3a3a;
+    border-radius: 15px;
+}
+.copyrights p{
+    color: white;
+}
